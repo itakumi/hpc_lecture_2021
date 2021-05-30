@@ -1,0 +1,53 @@
+N    : 256
+comp : 0.030344 s
+comm : 0.000119 s
+total: 0.030463 s (1.101479 GFlops)
+error: 0.000016
+
+N    : 256
+comp : 0.029354 s
+comm : 0.000122 s
+total: 0.029476 s (1.138350 GFlops)
+error: 0.000016
+
+N    : 256
+comp : 0.029888 s
+comm : 0.000119 s
+total: 0.030008 s (1.118199 GFlops)
+error: 0.000016
+
+N    : 512
+comp : 0.311672 s
+comm : 0.000633 s
+total: 0.312305 s (0.859531 GFlops)
+error: 0.000046
+
+N    : 512
+comp : 0.311231 s
+comm : 0.001065 s
+total: 0.312296 s (0.859555 GFlops)
+error: 0.000046
+
+N    : 512
+comp : 0.311333 s
+comm : 0.001068 s
+total: 0.312401 s (0.859265 GFlops)
+error: 0.000046
+
+N    : 1024
+comp : 3.087204 s
+comm : 0.002084 s
+total: 3.089287 s (0.695139 GFlops)
+error: 0.000129
+
+N    : 1024
+comp : 3.086331 s
+comm : 0.002090 s
+total: 3.088420 s (0.695334 GFlops)
+error: 0.000129
+
+N    : 1024
+comp : 3.088785 s
+comm : 0.002082 s
+total: 3.090867 s (0.694784 GFlops)
+error: 0.000129
