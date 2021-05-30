@@ -6,8 +6,11 @@
 
 # 実行方法
 qrsh -g tga-hpc-lecture -l f_node=1 -l h_rt=1:00:00
+
 module load intel-mpi gcc
+
 mpicxx example.cpp -fopenmp -fopt-info-vec-optimized -march=native -O3
+
 mpirun -np 1 ./a.out
 
 # ファイルについて
