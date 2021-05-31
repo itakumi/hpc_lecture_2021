@@ -11,7 +11,7 @@ module load intel-mpi gcc
 
 mpicxx example.cpp -fopenmp -fopt-info-vec-optimized -march=native -O3
 
-mpirun -np 1 ./a.out
+mpirun -np 4 ./a.out
 
 # ファイルについて
 original.cppはもともと提供されていたコード、example.cppは提出コードになります。
@@ -20,4 +20,6 @@ original.cppの実行結果はoutput_original.txtへ、
 example.cppの実行結果はoutput_example.txtへ書かれています。
 
 実行速度の関係でoriginal.cppはN=256,512,1024、
-example.cppはN=256,512,1024,2048,4096,8192において実行しています。
+example.cppはN=1024,2048,4096,8192での実行結果を記載しています。
+
+example.cppのN=256,512に関しては```mpirun -np 4 ./a.out```で実行するとエラーが起こることがあるので```mpirun -np 1 ./a.out```で実行するとエラーは出ません。

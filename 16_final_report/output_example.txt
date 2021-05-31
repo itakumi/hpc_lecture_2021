@@ -1,107 +1,27 @@
-N    : 256
-comp : 0.007630 s
-comm : 0.002037 s
-total: 0.009667 s (3.470868 GFlops)
-error: 0.000016
-
-N    : 256
-comp : 0.006072 s
-comm : 0.000208 s
-total: 0.006279 s (5.343695 GFlops)
-error: 0.000016
-
-N    : 256
-comp : 0.008012 s
-comm : 0.000173 s
-total: 0.008185 s (4.099522 GFlops)
-error: 0.000016
-
-N    : 512
-comp : 0.009734 s
-comm : 0.000977 s
-total: 0.010711 s (25.062752 GFlops)
-error: 0.000046
-
-N    : 512
-comp : 0.007463 s
-comm : 0.000781 s
-total: 0.008243 s (32.563528 GFlops)
-error: 0.000046
-
-N    : 512
-comp : 0.010148 s
-comm : 0.001229 s
-total: 0.011378 s (23.593148 GFlops)
-error: 0.000046
-
+21M30985@r8i6n2:~/revised_final_hpc/hpc_lecture_2021/16_final_report> mpirun -np 4 ./a.out
 N    : 1024
-comp : 0.013524 s
-comm : 0.002992 s
-total: 0.016516 s (130.027707 GFlops)
+comp : 0.012405 s
+comm : 0.002459 s
+total: 0.014864 s (144.476226 GFlops)
 error: 0.000102
 
-N    : 1024
-comp : 0.015461 s
-comm : 0.003101 s
-total: 0.018562 s (115.690925 GFlops)
-error: 0.000102
-
-N    : 1024
-comp : 0.016556 s
-comm : 0.002851 s
-total: 0.019407 s (110.654154 GFlops)
-error: 0.000102
-
+21M30985@r8i6n2:~/revised_final_hpc/hpc_lecture_2021/16_final_report> mpirun -np 4 ./a.out
 N    : 2048
-comp : 0.044526 s
-comm : 0.012057 s
-total: 0.056583 s (303.624544 GFlops)
+comp : 0.041298 s
+comm : 0.010463 s
+total: 0.051761 s (331.909470 GFlops)
 error: 0.000258
 
-N    : 2048
-comp : 0.050870 s
-comm : 0.011011 s
-total: 0.061881 s (277.626772 GFlops)
-error: 0.000258
-
-N    : 2048
-comp : 0.044082 s
-comm : 0.012048 s
-total: 0.056129 s (306.077067 GFlops)
-error: 0.000258
-
+21M30985@r8i6n2:~/revised_final_hpc/hpc_lecture_2021/16_final_report> mpirun -np 4 ./a.out
 N    : 4096
-comp : 0.282826 s
-comm : 0.044106 s
-total: 0.326933 s (420.389358 GFlops)
+comp : 0.225419 s
+comm : 0.045937 s
+total: 0.271356 s (506.488994 GFlops)
 error: 0.000701
 
-N    : 4096
-comp : 0.274527 s
-comm : 0.043880 s
-total: 0.318407 s (431.645793 GFlops)
-error: 0.000701
-
-N    : 4096
-comp : 0.273139 s
-comm : 0.047984 s
-total: 0.321123 s (427.994632 GFlops)
-error: 0.000701
-
+21M30985@r8i6n2:~/revised_final_hpc/hpc_lecture_2021/16_final_report> mpirun -np 4 ./a.out
 N    : 8192
-comp : 1.897209 s
-comm : 0.174942 s
-total: 2.072151 s (530.613711 GFlops)
-error: 0.001953
-
-N    : 8192
-comp : 1.837040 s
-comm : 0.175627 s
-total: 2.012667 s (546.295726 GFlops)
-error: 0.001953
-
-N    : 8192
-comp : 2.029078 s
-comm : 0.176587 s
-total: 2.205665 s (498.494491 GFlops)
+comp : 1.705455 s
+comm : 0.185724 s
+total: 1.891179 s (581.389590 GFlops)
 error: 0.001953
