@@ -92,8 +92,6 @@ int main(int argc, char** argv) {
         }
       }
     }
-        // for (int j=0; j<N/size; j++)
-        //   subC[N*i+j+offset] += subA[N*i+k] * subB[N/size*k+j];
     auto toc = chrono::steady_clock::now();
     comp_time += chrono::duration<double>(toc - tic).count();
     MPI_Request request[2];
